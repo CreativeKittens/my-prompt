@@ -21,7 +21,7 @@ symbol = "  "
 [directory]
 read_only = " 󰌾"
 style = "bold mauve"
-home_symbol = "home"
+home_symbol = "Home"
 truncation_length = 1
 
 [docker_context]
