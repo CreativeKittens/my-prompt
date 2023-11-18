@@ -1,28 +1,26 @@
 palette = "catppuccin_mocha"
 
 format = """
- $os\
-$all\
+$os\
+$directory\
 $character\
 """
-right_format = """$cmd_duration"""
+right_format = """$all"""
 
 add_newline = false
 
 # OS
 [os]
-format = "[ 󱚥  ~ ]($style)"
+format = "[  ]($style)"
 style = "bold mauve"
 disabled = false
-
-[aws]
-symbol = "  "
 
 [directory]
 read_only = " 󰌾"
 style = "bold mauve"
 home_symbol = "Home"
-truncation_length = 1
+truncation_length = 3
+truncation_symbol= "@/"
 
 [docker_context]
 symbol = " "
@@ -31,9 +29,10 @@ disabled = false
 [character]
 disabled = false
 success_symbol = '[](bold green) '
-error_symbol = '[](bold red) ' 
+error_symbol = '[](bold maroon) ' 
 
 [cmd_duration]
+format=" [󱑁 $duration](bold pink)"
 min_time = 1
 show_notifications = false
 disabled = false
