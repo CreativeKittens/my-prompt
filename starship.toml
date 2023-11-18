@@ -20,7 +20,8 @@ read_only = " 󰌾"
 style = "bold mauve"
 home_symbol = "Home"
 truncation_length = 3
-truncation_symbol= "@/"
+truncation_symbol = "@/"
+truncate_to_repo = false
 
 [docker_context]
 symbol = " "
