@@ -3,6 +3,7 @@ palette = "catppuccin_mocha"
 format = """
 $os\
 $directory\
+$git_branch\
 $character\
 """
 right_format = """$all"""
@@ -20,8 +21,8 @@ read_only = " 󰌾"
 style = "bold mauve"
 home_symbol = "Home"
 truncation_length = 3
-truncation_symbol = "@/"
-truncate_to_repo = false
+truncation_symbol= "@/"
+truncate_to_repo=false
 
 [docker_context]
 symbol = " "
