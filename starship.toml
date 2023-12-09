@@ -12,8 +12,8 @@ add_newline = false
 
 # OS
 [os]
-disabled = true
-format = "[󰜗 ~ ]($style)"
+disabled = false
+format = "[ ]($style)"
 style = "bold mauve"
 
 [directory]
