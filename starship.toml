@@ -1,10 +1,10 @@
 palette = "catppuccin_mocha"
 
 format = """
- $os\
+ $character\
+$os\
 $directory\
 $git_branch\
-$character\
 """
 right_format = """$all"""
 
