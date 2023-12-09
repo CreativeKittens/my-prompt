@@ -12,7 +12,7 @@ add_newline = false
 
 # OS
 [os]
-disabled = false
+disabled = true
 format = "[ ]($style)"
 style = "bold mauve"
 
