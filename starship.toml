@@ -1,7 +1,7 @@
 palette = "catppuccin_mocha"
 
 format = """
-$os\
+ $os\
 $directory\
 $git_branch\
 $character\
@@ -12,9 +12,9 @@ add_newline = false
 
 # OS
 [os]
-format = "[  ~ ]($style)"
+disabled = true
+format = "[󰜗 ~ ]($style)"
 style = "bold mauve"
-disabled = false
 
 [directory]
 read_only = " 󰌾"
@@ -30,8 +30,8 @@ disabled = false
 
 [character]
 disabled = false
-success_symbol = '[](bold green) '
-error_symbol = '[](bold maroon) ' 
+success_symbol = '[](bold green) '
+error_symbol = '[](bold maroon) ' 
 
 [cmd_duration]
 format=" [󱑁 $duration](bold pink)"
